@@ -2,7 +2,7 @@ let dropdown = document.getElementById('locality-dropdown');
 dropdown.length = 0;
 
 let defaultOption = document.createElement('option');
-defaultOption.text = 'Choose State/Province';
+defaultOption.text = 'Choose ITEM';
 
 dropdown.add(defaultOption);
 dropdown.selectedIndex = 0;
